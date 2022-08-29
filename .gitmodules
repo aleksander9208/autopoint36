@@ -1,0 +1,4 @@
+[submodule "www/bitrix"]
+	path = public_html/bitrix
+	url = git@github.com:aleksander9208/ipr_zebrains.git
+	branch = bitrix

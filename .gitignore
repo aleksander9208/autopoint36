@@ -1,0 +1,5 @@
+.idea
+.env
+/public_html/bitrix
+/public_html/upload
+/infrastructure/database/files/

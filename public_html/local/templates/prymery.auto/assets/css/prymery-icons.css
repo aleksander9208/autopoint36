@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Prymery';
+  src: url('../fonts/Prymery.eot?79857580');
+  src: url('../fonts/Prymery.eot?79857580#iefix') format('embedded-opentype'),
+       url('../fonts/Prymery.woff2?79857580') format('woff2'),
+       url('../fonts/Prymery.woff?79857580') format('woff'),
+       url('../fonts/Prymery.ttf?79857580') format('truetype'),
+       url('../fonts/Prymery.svg?79857580#prymery') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'prymery';
+    src: url('../font/prymery.svg?79857580#prymery') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "Prymery";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  line-height: 1em;
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.icon-th:before { content: '\e800'; } /* '' */
+.icon-chart:before { content: '\e801'; } /* '' */
+.icon-angle-right:before { content: '\e802'; } /* '' */
+.icon-star:before { content: '\e803'; } /* '' */
+.icon-menu-square:before { content: '\e804'; } /* '' */
+.icon-paper-bag:before { content: '\e805'; } /* '' */
+.icon-angle-left:before { content: '\e806'; } /* '' */
+.icon-ruble-sign:before { content: '\e807'; } /* '' */
+.icon-bars:before { content: '\e808'; } /* '' */
+.icon-times:before { content: '\e809'; } /* '' */
+.icon-user:before { content: '\e80a'; } /* '' */
+.icon-search:before { content: '\e80b'; } /* '' */
+.icon-th-list:before { content: '\e80c'; } /* '' */
+.icon-bolt:before { content: '\e80d'; } /* '' */
+.icon-shoping-cart:before { content: '\e80e'; } /* '' */
+.icon-heart-outline:before { content: '\e80f'; } /* '' */
+.icon-star-outline:before { content: '\e810'; } /* '' */
+.icon-shoping-cart-outline:before { content: '\e811'; } /* '' */
+.icon-heart:before { content: '\e812'; } /* '' */
+.icon-password-change:before { content: '\e813'; } /* '' */
+.icon-personal-data:before { content: '\e814'; } /* '' */
+.icon-contacts:before { content: '\e815'; } /* '' */
+.icon-order-history:before { content: '\e816'; } /* '' */
+.icon-check-circle:before { content: '\e817'; } /* '' */
